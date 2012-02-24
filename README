@@ -16,3 +16,4 @@ cd $HOME
 http://blog.designrecipe.jp/2009/7/15/git-basic/
 
 $ git add .
+$ git status
