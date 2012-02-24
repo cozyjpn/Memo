@@ -17,3 +17,8 @@ http://blog.designrecipe.jp/2009/7/15/git-basic/
 
 $ git add .
 $ git status
+$ git commit -m "something changed..."
+
+* remote http://progit.org/book/ja/ch2-10.html
+$ git remote -v
+$ git push [remote-name] [branch-name]
