@@ -1,0 +1,18 @@
+*** Home directoryの変更 ***
+
+[installdir]\etc\profile
+の
+if [ -z "$HOME" -o ! -d "$HOME" ]; then
+の前あたりに
+HOME="D:\usr\Git"
+追加
+最終行に
+cd $HOME
+
+追加
+
+
+*** 使い方とか ***
+http://blog.designrecipe.jp/2009/7/15/git-basic/
+
+$ git add .
